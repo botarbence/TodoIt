@@ -114,3 +114,10 @@ label {
 .donebtn {
 background-color: rgb(134, 113, 75);
 }
+
+
+@media (max-width:1200px) {
+  main {
+    width: 100%;
+  }  
+}
