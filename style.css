@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  
+}
+
+.header{
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  padding: 20px 0 10px;
+  margin: 0;
+}
+
+.smallheader {
+  padding: 10px 0 10px;
+  margin: 0;
+}
+
+main {
+  width: 300px;
+  min-height: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+  background-color: crimson;
+  color: wheat;
+}
+/* Input Box */
+
+.inputbox {
+  width: 80%;
+  margin: auto;
+}
+
+.inputtext {
+  display: block;
+  padding:0;
+  border:0;
+  height: 30px;
+  width:100%;
+  margin: auto;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3rem;
+}
+
+.inputbutton {
+  width:100%;
+  height: 30px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: wheat;
+  color: darkslategray;
+
+}
+
+/* Input Items */
+
+.list {
+  width: 80%;
+  margin: auto;
+}
+
+.itembox {
+  display: flex;
+  margin: 0 auto 5px;
+  padding: 0;
+  height:40px;
+  width: 100%;
+  background-color: rgb(173, 16, 48);
+  border: 1px solid darkslategray;
+  justify-content: stretch;
+  align-items: center;
+  
+}
+
+.textbox {
+  width: 100%;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.donebutton {
+  width: 30px;
+  height: 20px;
+  padding: 10px 5px;
+  margin: auto;
+  background-color: wheat;
+  color: darkslategrey;
+  
+}
+.deletebutton {
+  width: 30px;
+  height: 20px;
+  padding: 10px 5px;
+  background-color: wheat;
+  color: darkslategrey;
+}
+
+.doneitem {
+  color:rgb(134, 113, 75);
+}
+
+.donebtn {
+background-color: rgb(134, 113, 75);
+}
