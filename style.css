@@ -29,6 +29,7 @@ main {
 .inputbox {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 .inputtext {
@@ -42,6 +43,14 @@ main {
   font-size: 1.3rem;
 }
 
+label {
+  position: absolute;
+  top: 5px;
+  right:0px;
+  color: darkslategray;
+  font-size: 1.2rem;
+  width: 60px;
+}
 .inputbutton {
   width:100%;
   height: 30px;
@@ -82,7 +91,7 @@ main {
 }
 
 .donebutton {
-  width: 30px;
+  width: 20px;
   height: 20px;
   padding: 10px 5px;
   margin: auto;
@@ -91,7 +100,7 @@ main {
   
 }
 .deletebutton {
-  width: 30px;
+  width: 20px;
   height: 20px;
   padding: 10px 5px;
   background-color: wheat;

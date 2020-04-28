@@ -1,12 +1,12 @@
-var itemNumber = 1;
+var itemNumber = 0;
+var itemString =[];
 
- 
 
 $(".inputbutton").on("click", ()=>{
   if ($(".inputtext").val()!=="") {
-
+    itemString.push($(".inputtext").val());
     $(".list")
-      .append($("<div>").addClass("itembox listitem" + itemNumber )
+      .append($("<div>").addClass("itembox listitem" + (itemNumber +1))
         .append(
           [$("<div>").text($(".inputtext").val()).addClass("textbox")],
           [$("<i>").addClass("fas fa-trash deletebutton btn")],
@@ -28,4 +28,6 @@ $(".inputbutton").on("click", ()=>{
     $(".inputtext").val("");
   }
 });
+
+
 
