@@ -5,7 +5,7 @@ $("span").css("fontSize", "4.5rem");
 var itemNumber = 0;
 var itemString =[];
 
-$(".inputtext").on("keypress", ()=>{
+$(".inputtext").on("input", ()=>{
   var j = $(".inputtext").val();
   if (j.length<11) {
   $("label").text(11-j.length + " left");
