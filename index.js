@@ -1,3 +1,7 @@
+$("span").css("fontSize", "4.5rem");
+
+
+
 var itemNumber = 0;
 var itemString =[];
 
